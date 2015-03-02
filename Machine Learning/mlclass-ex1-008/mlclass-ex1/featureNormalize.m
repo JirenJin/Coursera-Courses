@@ -32,7 +32,7 @@ for i = 1:size(X, 2)
 end
 sigma = std(X);
 for i = 1:size(X, 2)
-    X_norm(:,i) = X_sub(:,i) / sigma(i)
+    X_norm(:,i) = X_sub(:,i) / sigma(i);
 end
 
 
